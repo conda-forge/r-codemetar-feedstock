@@ -3,7 +3,7 @@ About r-codemetar
 
 Home: https://github.com/ropensci/codemetar, https://ropensci.github.io/codemetar
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: BSD-3-Clause
 
