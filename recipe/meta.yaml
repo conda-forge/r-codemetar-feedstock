@@ -25,49 +25,39 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - r-cli
     - r-commonmark
     - r-crul
-    - r-curl
     - r-desc
+    - r-gert
     - r-gh
-    - r-git2r
-    - r-glue
     - r-jsonlite >=1.6
     - r-magrittr
     - r-memoise
     - r-pingr
     - r-pkgbuild
     - r-purrr
-    - r-readr
+    - r-remotes
     - r-sessioninfo
-    - r-stringi
-    - r-stringr
-    - r-tibble
-    - r-usethis
-    - r-whisker
+    - r-urltools
     - r-xml2
   run:
     - r-base
+    - r-cli
     - r-commonmark
     - r-crul
-    - r-curl
     - r-desc
+    - r-gert
     - r-gh
-    - r-git2r
-    - r-glue
     - r-jsonlite >=1.6
     - r-magrittr
     - r-memoise
     - r-pingr
     - r-pkgbuild
     - r-purrr
-    - r-readr
+    - r-remotes
     - r-sessioninfo
-    - r-stringi
-    - r-stringr
-    - r-tibble
-    - r-usethis
-    - r-whisker
+    - r-urltools
     - r-xml2
 
 test:
@@ -77,7 +67,7 @@ test:
 
 about:
   home: https://github.com/ropensci/codemetar, https://ropensci.github.io/codemetar
-  license: GPL-3
+  license: GPL-3.0-only
   summary: The 'Codemeta' Project defines a 'JSON-LD' format for describing software metadata, as detailed at <https://codemeta.github.io>. This package provides utilities to generate, parse, and modify 'codemeta.json' files automatically for R packages, as well as tools and examples for working with 'codemeta.json' 'JSON-LD'
     more generally.
   license_family: GPL3
