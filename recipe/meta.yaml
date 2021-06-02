@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/codemetar_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/codemetar/codemetar_{{ version }}.tar.gz
-  sha256: 28d9ad2a53e4eda24b0784b6be990c5b4140c0063825bdef5b645dd52e37f2a6
+  sha256: 943b3dd73b2c95770406f51bafd08830279360f2d71086e43082a2ef44d94f1d
 
 build:
   merge_build_host: true  # [win]
