@@ -1,11 +1,11 @@
-About r-codemetar
-=================
+About r-codemetar-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-codemetar-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/codemetar, https://ropensci.github.io/codemetar
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-codemetar-feedstock/blob/main/LICENSE.txt)
 
 Summary: The 'Codemeta' Project defines a 'JSON-LD' format for describing software metadata, as detailed at <https://codemeta.github.io>. This package provides utilities to generate, parse, and modify 'codemeta.json' files automatically for R packages, as well as tools and examples for working with 'codemeta.json' 'JSON-LD' more generally.
 
