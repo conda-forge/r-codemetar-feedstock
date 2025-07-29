@@ -1,4 +1,4 @@
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/codemetar_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/codemetar/codemetar_{{ version }}.tar.gz
-  sha256: 022c90b7f0639df2eb6e2afae3088c2dd1d3f6a9d745da6860b4231292c5c45f
+  sha256: ab1d48bb51d48c84f8c605c1dce4b5c3a31a3da62a99ba3537c515088ffbff6c
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
